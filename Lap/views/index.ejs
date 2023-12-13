@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Users</h1>
+    <table class="background">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <% 
+            result.forEach(e => { %>
+                <tr>
+                    <td><%= e.id %></td>
+                    <td><%= e.name %></td>
+                    <td><%= e.email %></td>
+                </tr>
+            <% });
+         %>
+    </table>
+

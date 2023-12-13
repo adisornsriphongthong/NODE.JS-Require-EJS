@@ -1,0 +1,16 @@
+.background {
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+.background thead th{
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+}
+
+.background tr td{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px 5px 15px;
+}
+
+
